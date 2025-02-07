@@ -12,11 +12,6 @@
   gap: 60px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .flex {
   display: flex;
 }
@@ -25,7 +20,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  max-width: 1200px;
   flex-wrap: wrap;
   gap: 20px;
 }
