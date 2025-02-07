@@ -1,0 +1,82 @@
+/* Header */
+
+.header-bg {
+  background: var(--c12);
+}
+
+.g-30 {
+  gap: 30px;
+}
+
+.g-60 {
+  gap: 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navtop {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.navtop li a {
+  display: inline-block;
+  padding: 16px 0px;
+  transition: 0.2s ease-out;
+  position: relative;
+}
+
+.navtop li a:after {
+  position: absolute;
+  display: block;
+  content: " ";
+  width: 0px;
+  height: 2px;
+  margin-top: 4px;
+  background-color: var(--c0);
+  transition: 0.3s;
+}
+
+.navtop li a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .navtop li a {
+    background-color: var(--c11);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .navtop li a:after {
+    display: none;
+  }
+  .navtop li a:hover {
+    background-color: var(--c10);
+  }
+}
+
+@media (max-width: 600px) {
+  .navtop li a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .navtop {
+    gap: 12px;
+  }
+}
