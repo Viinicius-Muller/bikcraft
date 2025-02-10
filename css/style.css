@@ -21,3 +21,9 @@
 
 /* Depoimento */
 @import "./home/depoimento.css";
+
+/* Seguros */
+@import "./home/seguros.css";
+
+/* Footer */
+@import "./global/footer.css";

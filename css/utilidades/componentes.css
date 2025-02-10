@@ -49,6 +49,15 @@
   color: var(--c1);
 }
 
+.button.secundario {
+  background: var(--c10);
+  color: var(--c5);
+}
+
+.button.secundario:hover {
+  background: var(--c9);
+}
+
 @media (max-width: 600px) {
   .button {
     padding: 12px 30px;
